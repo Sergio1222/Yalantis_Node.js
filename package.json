@@ -1,0 +1,34 @@
+{
+  "name": "secret_santa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/Sergio1222/Yalantis_Node.js"
+  },
+  "author": "Iunash Sergii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sergio1222/Yalantis_Node.js"
+  },
+  "homepage": "https://github.com/Sergio1222/Yalantis_Node.js",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-plugin-jest": "^25.3.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jest": "^27.4.7",
+    "sqlite3": "^5.0.2"
+  }
+}
